@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: chocolate;
+  }
+  
+  .box{
+      width: 500px;
+    height: 100px;
+    background-color: slateblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+    border: 5px solid white;
+  }
+  
+  img{
+    height: 100px;
+    width : 100px;
+    border-radius: 50%;
+    position : absolute;
+    left : 50%;
+      transform: translateX(-50%);
+    top: -50px;
+  }
+  
+  .name{
+    color: whitesmoke;
+    font-size: 28px;
+    font-weight: bolder;
+  }
